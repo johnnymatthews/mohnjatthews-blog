@@ -1,6 +1,6 @@
 ---
 title: "Semantic pull request titles for documentation"
-description: "Using these rules when creating a pull request title _won't_ make you a better person, but it might improve your Git repository. I based this post on a GitHub gist from [joshbuchea's](https://gist.github.com/joshbuchea) called [`semantic-commit-messages.md`](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)."
+description: "Using these rules when creating a pull request title _won't_ make you a better person, but it might improve your Git repository. I based this post on a GitHub gist from [joshbuchea's](https://gist.github.com/joshbuchea) called [Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)."
 date: 2024-04-14
 ---
 
