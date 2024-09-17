@@ -6,8 +6,6 @@ date: 2024-04-14
 
 I'm sure we've all seen Git repos with a shocking amount of branches. Without a decent naming convention, things can get messy real quick. The idea here is that adding the tags below to the start of your branch makes it easier for folks to quickly figure out what your trying to do.
 
-## Types
-
 These are the available types:
 
 | Type | Description | Example |
@@ -19,14 +17,17 @@ These are the available types:
 | `refactor` | Completely changes an **existing** section or page while keeping the original narrative/purpose. Refactors are changes to documentation that do not result from a platform/package/software release. | `refactor/simplifies-dht-explanation` |
 | `update` | Changes to **existing** documentation due to platform/package/software releases. Updates to documentation as a direct result of updates to platforms/packages/software releases. | `update/install-section-go-ipfs-0-7` |
 | `chore` | Updates automation, CircleCI tasks, linting rules, etc. Chores do not fix documentation. | `chore/redirects-for-concepts-section` |
+| `test` | Content that might not get merged into the `main` branch, and only exists as a proof-of-concept for a new feature. Branches may get renamed to something else if they are ready to get merged into `main`. | `test/unique-sidebar-navigation` |
 
-## Example
+For example:
 
 ```plaintext
-feat/ipfs-desktop-install
-^--^  ^------------^
-|     |
-|     +-> Summary of your changes
+feat/program-desktop-install
+^--^ ^---------------------^
+|    |
+|    +-> Summary of your changes
 |
-+-------> Type: feat, add, remove, fix, refactor, update, or chore.
++-------> Type: feat, add, remove, fix, refactor, update, chore, or test.
 ```
+
+Using these rules when creating a pull request title _won't_ make you a better person, but it might improve your Git repository. I based this post on a GitHub gist from [joshbuchea's](https://gist.github.com/joshbuchea) called [`semantic-commit-messages.md`](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
