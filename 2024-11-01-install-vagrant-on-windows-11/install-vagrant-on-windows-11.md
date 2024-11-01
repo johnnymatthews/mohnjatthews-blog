@@ -4,6 +4,8 @@ description: "Vagrant is a useful tool for spinning up local virtual machines, b
 date: 2024-11-01
 ---
 
+It's not super difficult, it's just not super clear what you're meant to do -- at least not initially clear.
+
 ## Prerequisites
 
 There are a couple of things we need to install before we can start spinning up VMs:
