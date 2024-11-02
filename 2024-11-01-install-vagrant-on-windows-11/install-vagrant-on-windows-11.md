@@ -4,7 +4,7 @@ description: "Vagrant is a useful tool for spinning up local virtual machines, b
 date: 2024-11-01
 ---
 
-It's not super difficult, it's just not super clear what you're meant to do -- at least not initially clear.
+It's not super complicated; it's just unclear what you're meant to do -- at least not initially apparent.
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ We have to follow a few steps to get a VM up and running.
     vagrant up --provider=virtualbox
     ```
 
-    For some reason, I always need to add the `--provider` tag to tell Vagrant exactly which provider I'm using. It might just be my setup, though.
+    I'm not sure why, but I only need to add the `--provider` tag _sometimes_. This tag tells Vagrant exactly which provider I'm using.
 
 ## Done
 
