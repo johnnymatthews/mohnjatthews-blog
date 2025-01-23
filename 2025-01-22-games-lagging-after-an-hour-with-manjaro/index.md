@@ -1,6 +1,6 @@
 ---
 title: "Games lagging after an hour with Manjaro"
-description: "I've having a problem with Manjaro at the moment where games will start to stutter after about an hour of play. Before then, everything's running super smoothly with no issues. I found a potential solution."
+description: "I've been experiencing a problem with Manjaro where games will start to stutter after about an hour of play. Before then, everything's running super smoothly with no issues. I found a potential solution."
 date: 2025-01-22
 ---
 
