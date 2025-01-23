@@ -1,6 +1,6 @@
 ---
 title: "Backdoors don't work"
-description: "The cybersecurity situation in North America is becoming more and more dire as leaders fail to understand the basics of infosec, and as external threats continue to abuse this misunderstanding. One common knowledge-gap held by North American leaders is _\" Why can't we build a secure backdoor that only we can use, but the bad guys can't?/"_."
+description: "The cybersecurity situation in North America is becoming more and more dire as leaders fail to understand the basics of infosec, and as external threats continue to abuse this misunderstanding. One common knowledge-gap held by North American leaders is _Why can't we build a secure backdoor that only we can use, but the bad guys can't?_."
 date: 2024-12-30
 ---
 
